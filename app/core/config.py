@@ -3,7 +3,7 @@ from typing import Optional
 from functools import lru_cache
 
 class Settings(BaseSettings):
-    API_V1_STR: str = "/api/v1"
+  API_V1_STR: str = "/api/v1"
   PROJECT_NAME: str = "Sitios en minca"
   POSTGRES_SERVER: str = "localhost"
   POSTGRES_USER: str = "fastapi"
