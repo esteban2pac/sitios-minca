@@ -6,7 +6,7 @@ class PlaceBase(BaseModel):
     description: Optional[str] = None
     image: Optional[AnyHttpUrl]
 
-class placeCreate(PlaceBase):
+class PlaceCreate(PlaceBase):
     pass
 
 class PlaceUpdate(PlaceBase):
@@ -18,7 +18,7 @@ class PlaceInDBBase(PlaceBase):
     class Config:
         orm_mode = True
 
-class Placce (PlaceInDBBase):
+class Place (PlaceInDBBase):
     pass
 
 class PlaceInDB(PlaceInDBBase):
