@@ -1,6 +1,6 @@
 from fastapi.encoders import jsonable_encoder
 from sqlalchemy.orm import Session, descriptor_props
-from app.model.place import PLace as PlaceModel
+from app.models.place import PLace as PlaceModel
 from app.schemas.place import PlaceCreate, PlaceUpdate, Place
 
 #Create, Read, Update, Delete
